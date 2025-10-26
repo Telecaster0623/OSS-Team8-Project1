@@ -10,6 +10,7 @@ int main() {
 			else if (n == 2025046007) printf("Your name is Hong seonggwon\n");
 			else if (n == 2025046034) printf("Your name is choi hobin\n");
 			else if (n == 2025046028) printf("your name is Ahn taegun\n");
+			else if (n == 2025046035) printf("your name is Bagana\n");
 			else printf("There are no saved IDs");
 		}
 		break;
