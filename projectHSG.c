@@ -20,6 +20,15 @@ int main()
     player1.money = 0;
 
     int girlfriend = 0;
+
+    int NextChapter = 0;
     int GameOver = 0;
 
+    if (NextChapter != 0) 
+    {
+    printStats(&player1);
+    printf("\n(다음 챕터로 가려면 Enter 키를 누르세요...)");
+    while (getchar() != '\n');
+    getchar();
+    }
 }
