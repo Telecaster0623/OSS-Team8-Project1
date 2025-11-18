@@ -5,7 +5,7 @@
 
 
 void question(char question[10000], int num, char choice_statement[5][10000]){
-    
+    system("cls");
     printf("___________________________\n");
     printf("%s\n",question);
     printf("___________________________\n");
@@ -13,6 +13,5 @@ void question(char question[10000], int num, char choice_statement[5][10000]){
         printf("%d. %s\n", i + 1 , choice_statement[i]);
     }
     printf("___________________________\n");
-
-    return 0;
+    printf("--->\n");
 }
