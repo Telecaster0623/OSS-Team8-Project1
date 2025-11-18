@@ -10,7 +10,7 @@ int main(void){
     printf("%s\n",question);
     printf("___________________________\n");
     for(int i = 0; i < num; i++){
-        printf("%d. %s", i + 1 , choice_statement[i]);
+        printf("%d. %s\n", i + 1 , choice_statement[i]);
     }
     printf("___________________________\n");
 
