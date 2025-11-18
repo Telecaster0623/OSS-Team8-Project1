@@ -4,7 +4,7 @@
 
 
 
-void question(char question[10000], int num, char choice_statement[5][10000]){
+int question(char question[10000], int num, char choice_statement[5][10000]){
     system("cls");
     printf("___________________________\n");
     printf("%s\n",question);
@@ -14,4 +14,6 @@ void question(char question[10000], int num, char choice_statement[5][10000]){
     }
     printf("___________________________\n");
     printf("--->\n");
+    scanf_s("%d",&num);
+    return num;
 }
