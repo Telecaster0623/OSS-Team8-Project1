@@ -4,13 +4,13 @@
 
 
 
-int main(void){
-    char question[10000]="choihobin", choice_statement[5][10000] = {"A","B","C"}; int num = 3;
+void question(char question[10000], int num, char choice_statement[5][10000]){
+    
     printf("___________________________\n");
     printf("%s\n",question);
     printf("___________________________\n");
     for(int i = 0; i < num; i++){
-        printf("%d. %s", i + 1 , choice_statement[i]);
+        printf("%d. %s\n", i + 1 , choice_statement[i]);
     }
     printf("___________________________\n");
 
