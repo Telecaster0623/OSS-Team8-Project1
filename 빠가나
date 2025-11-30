@@ -1,0 +1,14 @@
+#define MAX_CHOICES 4
+#define MAX_SCENES 50
+
+typedef struct {
+    char text[128];
+    int nextSceneID;
+} Choice;
+
+typedef struct {
+    int sceneID;
+    char description[256];
+    int choiceCount;
+    Choice choices[MAX_CHOICES];
+} Scene;
